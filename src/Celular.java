@@ -13,7 +13,11 @@ public class Celular {
         this.marca = marca;
         this.modelo = modelo;
         this.precio = marca;
-
+    }
+    public void mostrarInformacion(){
+        System.out.println("Marca"+ marca);
+        System.out.println("Modelo"+ modelo);
+        System.out.println("Precio"+ precio);
     }
 
 
