@@ -1,2 +1,2 @@
-public class Smartphone {
+public class Smartphone extends Celular {
 }
