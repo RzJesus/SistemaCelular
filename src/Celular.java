@@ -12,7 +12,7 @@ public class Celular {
     public Celular(String marca, String modelo, double precio){
         this.marca = marca;
         this.modelo = modelo;
-        this.precio = marca;
+        this.precio = precio;
     }
     public void mostrarInformacion(){
         System.out.println("Marca"+ marca);
